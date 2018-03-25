@@ -40,11 +40,11 @@ function confirm(){
  		alert("不连续，请重新开始");
  		document.getElementById("screenName").value="";
  		tmpe=0;
- 		document.getElementById("screennote").value=tmpe;
+ 		// document.getElementById("screennote").value=tmpe;
  	}else{
  		console.log("连续可继续");
  		document.getElementById("screenName").value="";
- 		document.getElementById("screennote").value=tmpe;
+ 		// document.getElementById("screennote").value=tmpe;
  	}
  	
  }
