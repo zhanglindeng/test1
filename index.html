@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>skylerswy</title>
+		<link rel="stylesheet" href="css/new_file.css" />
+		<script type="text/javascript" src="css/new_file.js">
+        </script>
+	</head>
+	<body>
+		<center>
+		<p>上一个数是：</p>
+		<input type="text" id="screennote" name="screenName" value="0" >
+		</center>
+		<div class="screen">
+			<center>
+		<input type="text" id="screenName" name="screenName" >
+		</center>
+		</div>
+		 <div class="all_button">
+		 	<center>
+            <div class="1_row">
+                <input type="button" id="1" onclick="putin(this.id)" value="1" class="button">
+                <input type="button" id="2" onclick="putin(this.id)" value="2" class="button">
+                <input type="button" id="3" onclick="putin(this.id)" value="3" class="button">
+            </div>
+            <div class="2_row">
+                <input type="button" id="4" onclick="putin(this.id)" value="4" class="button">
+                <input type="button" id="5" onclick="putin(this.id)" value="5" class="button">
+                <input type="button" id="6" onclick="putin(this.id)" value="6" class="button">
+            </div>
+            <div class="3_row">
+                <input type="button" id="7" onclick="putin(this.id)" value="7" class="button">
+                <input type="button" id="8" onclick="putin(this.id)" value="8" class="button">
+                <input type="button" id="9" onclick="putin(this.id)" value="9" class="button">
+            </div>
+            <div class="4_row">
+            	<input type="button" id="删除" onclick="delit()" value="删除" class="button">
+                <input type="button" id="0" onclick="putin(this.id)" value="0" class="button">
+                <input type="button" id="确认" onclick="confirm()" value="确认" class="button">
+            </div></center>
+        </div>
+    </div>
+    <center>
+    <p>
+    	第一位初始为0，请从1开始输入。
+    </p>
+    <p>
+    	输入完成后按确认，若判断与上一个数连贯，则可以继续输入。若不连贯，则重新从1开始。
+    </p>
+    </center>
+	</body>
+</html>
